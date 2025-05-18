@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Foodvisior</string>
+    <string-array name="activity_levels">
+        <item>Sedentary</item>
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Very Active</item>
+        <item>Super Active</item>
+    </string-array>
+</resources>
+

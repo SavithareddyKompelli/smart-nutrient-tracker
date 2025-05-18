@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_select_disease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diseases"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+
+    <ScrollView
+        android:id="@+id/sv_disease_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- List of 20 Diseases -->
+            <CheckBox
+                android:id="@+id/cb_diabetes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diabetes"/>
+
+            <CheckBox
+                android:id="@+id/cb_hypertension"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hypertension"/>
+
+            <CheckBox
+                android:id="@+id/cb_anemia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anemia"/>
+
+            <CheckBox
+                android:id="@+id/cb_asthma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asthma"/>
+
+            <CheckBox
+                android:id="@+id/cb_arthritis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arthritis"/>
+
+            <CheckBox
+                android:id="@+id/cb_cancer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancer"/>
+
+            <CheckBox
+                android:id="@+id/cb_cholesterol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High Cholesterol"/>
+
+            <CheckBox
+                android:id="@+id/cb_obesity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obesity"/>
+
+            <CheckBox
+                android:id="@+id/cb_hiv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HIV/AIDS"/>
+
+            <CheckBox
+                android:id="@+id/cb_alzheimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alzheimer's Disease"/>
+
+            <CheckBox
+                android:id="@+id/cb_parkinson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parkinson's Disease"/>
+
+            <CheckBox
+                android:id="@+id/cb_epilepsy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Epilepsy"/>
+
+            <CheckBox
+                android:id="@+id/cb_migraine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Migraine"/>
+
+            <CheckBox
+                android:id="@+id/cb_celiac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Celiac Disease"/>
+
+            <CheckBox
+                android:id="@+id/cb_lupus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lupus"/>
+
+            <CheckBox
+                android:id="@+id/cb_osteoporosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Osteoporosis"/>
+
+            <CheckBox
+                android:id="@+id/cb_gout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gout"/>
+
+            <CheckBox
+                android:id="@+id/cb_stroke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stroke"/>
+
+            <CheckBox
+                android:id="@+id/cb_thyroid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thyroid Disorders"/>
+
+            <CheckBox
+                android:id="@+id/cb_hepatitis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hepatitis"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_submit_disease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
